@@ -2,7 +2,7 @@ l = list()
 l.append(1)
 l.append(2)
 l.remove(2)
-print(len(l))
+# print(len(l))
 
 
 # adt Abstract data type
@@ -35,8 +35,8 @@ def test_bag():
     bag.add(3)
 
     assert len(bag) == 3
-
     bag.remove(3)
+
     assert len(bag) == 2
 
     for i in bag:
