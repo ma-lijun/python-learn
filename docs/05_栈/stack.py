@@ -186,3 +186,4 @@ def test_stack():
 
 if __name__ == '__main__':
     test_stack()
+    a = dict()
