@@ -6,7 +6,7 @@ import multiprocessing
 
 from gunicorn.glogging import Logger
 
-filepath = "./log/"
+filepath = "./Logs/"
 # when S M H D W 分别表示以秒、分钟、小时、天、周为日期分割时间周期
 th_acc = TimedRotatingFileHandler(when="D", backupCount=7, filename=filepath + "access.log")
 th_err = TimedRotatingFileHandler(when="D", backupCount=7, filename=filepath + "error.log")
